@@ -1,0 +1,69 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+}
+
+main {
+	margin: 20px;
+}
+
+.add-note {
+	margin-bottom: 50px;
+}
+
+.add-note h2, .view-notes h2 {
+	margin-top: 0;
+}
+
+.add-note label, .add-note input, .add-note textarea, .add-note button {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.add-note input, .add-note textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.add-note button[type=submit] {
+	background-color: #333;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.view-notes {
+	border-top: 1px solid #ccc;
+	padding-top: 50px;
+}
+
+.note {
+	background-color: #eee;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.note h3 {
+	margin-top: 0;
+}
+
+.note p {
+	margin-bottom: 0;
+}
