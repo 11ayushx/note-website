@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>My Notes Website</title>
+    <link rel="stylesheet" href="note.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>My Notes</h1>
+	</header>
+	<main>
+		<section class="add-note">
+			<h2>Add a New Note</h2>
+			<form>
+				<label for="note-title">Note Title:</label>
+				<input type="text" id="note-title" name="note-title">
+
+				<label for="note-text">Note Text:</label>
+				<textarea id="note-text" name="note-text"></textarea>
+
+				<button type="submit">Save Note</button>
+			</form>
+		</section>
+
+		<section class="view-notes">
+			<h2>View Your Notes</h2>
+			<div id="notes-container">
+				<!-- Notes will be displayed here dynamically using JavaScript -->
+			</div>
+		</section>
+	</main>
+
+	<script src="note.js"></script>
+</body>
+</html>
